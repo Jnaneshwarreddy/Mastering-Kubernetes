@@ -102,6 +102,7 @@ export KUBECONFIG=/root/saikiran-CONFIG
 To combine multiple config files into one:
 
 ```bash
-export KUBECONFIG=USER1-CONFIG:USER2-CONFIG:SAIKIRAN-CONFIG
+export KUBECONFIG=USER1-CONFIG:USER2-CONFIG:JNANESHWAR-CONFIG
 kubectl config view --merge --flatten > mixed-config.txt
 ```
+
