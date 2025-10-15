@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "result.testing24.xyz"
+    - "result.cloudk8s.xyz"
     secretName: nginx-tls-default
   rules:
-  - host: result.testing24.xyz
+  - host: result.cloudk8s.xyz
     http:
       paths:
       - path: /
@@ -35,11 +35,11 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "vote.testing24.xyz"
+    - "vote.cloudk8s.xyz"
     - "www.testing24.xyz"
     secretName: nginx-tls-default
   rules:
-  - host: vote.testing24.xyz
+  - host: vote.cloudk8s.xyz
     http:
       paths:
       - path: /
@@ -49,7 +49,7 @@ spec:
             name: vote
             port:
               number: 80
-  - host: www.testing24.xyz
+  - host: www.cloudk8s.xyz
     http: 
       paths:
       - path: /
