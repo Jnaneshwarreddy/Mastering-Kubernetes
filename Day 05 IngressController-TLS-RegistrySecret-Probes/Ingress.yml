@@ -36,7 +36,7 @@ spec:
   tls:
   - hosts:
     - "vote.cloudk8s.xyz"
-    - "www.testing24.xyz"
+    - "www.cloudk8s.xyz"
     secretName: nginx-tls-default
   rules:
   - host: vote.cloudk8s.xyz
